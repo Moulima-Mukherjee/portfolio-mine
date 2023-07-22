@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio of mine</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1d77ca55f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-----------------home----------->
+<div id="header">
+   <div class="container">
+    <nav>
+        <img src="images/logo.png" class="logo"/>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Experience</a></li>
+            <li><a href="#contact">Contact</a></li> 
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <h1><span> Hi, My Name is</span></h1>
+        <h2><span>MOULIMA MUKHERJEE</span></h2>
+        <p>and I'm a<span id="typing-animation"></span></p>
+    </div>
+   </div>
+</div>
+<!---------------------about---------------------->
+<div id="about">
+  <div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/bback.jpg">
+        </div>
+        <div class="about-col-2">
+        <h1 class="sub-title">ABOUT ME</h1>
+        <p id="static-paragraph"></p>
+        <p id="static-paragraph">
+        Hello! I am Moulima Mukherjee pursuing Bachelor of Technology degree in Computer Science and Engineering at Guru Nanak Institute of Technology. With a strong academic record and proficiency in programming languages like Java, C/C++ and SQL . Recently I have done a project of Face Recognization and Attendence System which was showing at time of NAAC and I also gained expertise in Software Engineering. Additionally, I actively contribute to the NSS unit of our college as a role of Student Representative.I'm the Departmental TOPPER in our college. With my strong educational background, technical skills, Social Media Handiling and leadership experiences, I am well-prepared to take on challenges and contribute effectively to any professional setting relevant with my work profile.I am a Highly motivated quickly learner and developer. Coding is my hobby as well as my habit😉.</p>
+
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+            <p class="tab-links"onclick="opentab('education')">Education</p>
+            <p class="tab-links"onclick="opentab('achievements')">Awards & Achievements</p>
+            <p class="tab-links"onclick="opentab('coding platform')">Coding Profile</p>
+            <p class="tab-links"onclick="opentab('tools')">Tools used</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>Java </span>programming<br></li>
+                <li><span>C </span>programming<br></li>
+                <li><span>C++ </span> programming<br></li>
+                <li><span>HTML</span></li>
+                <li><span>SQl<br></li>
+                <li><span>Social Media </span> Management<br></li>
+
+            </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2021 (3 months) </span><br>Research Intership at Nexus.<br></li>
+                <li><span>2021 (3 months)</span><br>PR Intership at Nincompoop.<br></li>
+                <li><span>2020-present</span><br>National Service Scheme unit Member.<br></li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2024  9.8 CGPA</span><br>B.Tech in CSE From Guru Nanak Institute of Technology.<br></li>
+                <li><span>2020  93.8%</span><br>Higher Secondary From Jogendranath Balika Vidyamandir.<br></li>
+                <li><span>2018  88.7%</span><br>Secondary From Jogendranath Balika Vidyamandir.<br></li>
+            </ul>
+            </div>
+        <div class="tab-contents" id="achievements">
+        <ul>
+            <li><span>2022 </span><br>Yearly Departmental(CSE) TOPPER of Guru Nanak Institute of Technology.<br></li>
+            <li><span>2020 </span><br>Higher Secondary TOPPER From Jogendranath Balika VIdyamandir.<br></li>
+            <li><span>2020 </span><br>Area TOPPER in Secondary Examination.<br></li>
+        </ul>
+        </div>
+        <div class="tab-contents" id="coding platform">
+            <ul>
+                <li><span>CodeChef </span><br><br></li>
+                <li><span>Leetcode</span><br><br></li>
+                <li><span>HacherRank</span><br><br></li>
+                <li><span>geeksforgeeks</span><br><br></li>
+
+            </ul>
+            </div>
+        <div class="tab-contents" id="tools">
+            <ul>
+                <li><span>Vs code</span><br><br></li>
+                <li><span>IntelliJ IDEA</span><br><br></li>
+                <li><span>ORACLE</span><br><br></li>
+                <li><span>Github</span><br><br></li>
+            </ul>
+        </div>
+    </div>
+  </div> 
+</div>
+<!-----------------services--------------------->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">MY SERVICES</h1>
+      <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Java programming </h2>
+            <p</p>
+            <a href="https://en.wikipedia.org/wiki/Java_%28programming_language%29">Learn more</a>
+        </div>
+       <div>
+        <i class="fa-brands fa-square-instagram"></i>
+        <h2>Social Media Management</h2>
+        <p></p>
+        <a href="https://en.wikipedia.org/wiki/Social_media">Learn more</a>
+    </div>
+   <div>
+    <i class="fa-solid fa-window-restore"></i>
+    <h2>Web Delelopment</h2>
+    <p></p>
+    <a href="https://www.codecademy.com/resources/blog/what-is-web-development/">Learn more</a>
+</div>
+<div>
+    <i class="fa-solid fa-file-code"></i>
+    <h2>Website creation</h2>
+    <p></p>
+    <a href="https://www.geeksforgeeks.org/what-is-a-website/">Learn more</a>
+</div>
+</div>
+</div>
+</div>
+<!-------------------------portfolio------------------->
+<div id="portfolio">
+    <div class="container">
+    <h1 class="sub-title">MY WORK</h1>
+    <div class="work-list">
+    <div class="work">
+        <img src="images/user.png">
+        <div class="layer">
+            <h3>Face Detection System</h3>
+            <p>The aim of this project is to develop an automated employee/students attendance system by their face recognition.Capturing live feed from camera to record attendance and to give accurate result.</span> </p>
+            <a href="https://docs.google.com/presentation/d/1w6rK6j1MVq5p50Xq23zCvaJgQJfBRF53/edit#slide=id.p2"> <i class="fas fa-external-link-alt"></i></a>
+        </div>
+    </div>
+    <div class="work">
+    <img src="images/work-3.png">
+    <div class="layer">
+        <h3>Safety Using Fire Alarm</h3>
+        <p> Every business needs to protect its people and assets from the risk of a fire emergency. The best ways to potentially save lives against the fire are alarming at the right time.</span></p>
+        <a href="https://www.instructables.com/Fire-Alarm-Circuit-Using-555-Ic/"> <i class="fas fa-external-link-alt"></i></a>
+    </div>
+</div>
+<div class="work">
+<img src="images/work-1 (1).jpg">
+<div class="layer">
+    <h3>Student Academic Record Management Software</h3>
+    <p> record-keeping in institutes collected from various sources such as admission, attendance, performance, documents, fees, and behavioral records.</span></p>
+    <a href="https://en.wikipedia.org/wiki/Records_management"> <i class="fas fa-external-link-alt"></i></a>
+</div>
+</div>
+<div class="work">
+<img src="images/work-2.png">
+<div class="layer">
+    <h3>Website Creation</h3>
+    <p>ie.Your portfolio website is your own personal site, where you can present your creative or commercial work.</span></p>
+    <a href=""> <i class="fas fa-external-link-alt"></i></a>
+</div>
+</div>
+<div class="work">
+    <img src="images/work5.png">
+    <div class="layer">
+        <h3>ChatGpt for Automation</h3>
+        <p>ChatGPT has the potential to significantly impact automation by reducing the need for human intelligence and understanding in a wide range of tasks.</span></p>
+        <a href="https://docs.google.com/document/d/1tl7JwcgvY_FIGRt3LNeZXC_ZppxqbFIEnnz7JLTqwv4/edit"> <i class="fas fa-external-link-alt"></i></a>
+    </div>
+    </div>
+</div>
+<a href ="#sub-title" class="btn">See More</a>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-------------------------contact------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">CONTACT ME</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>moulima.mk2003@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>8910717065</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/moulima.mukherjee.982?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/moulima-mukherjee-137a32225?trk=contact-info"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/hie_here_moulima_mukherjee03?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Moulima-Mukherjee/Moulima-Mukherjee"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://youtube.com/@moulima03"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="images/my-cv (2).pdf" download class ="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Write your message here"></textarea>
+                    <button type="submit"class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">Hello please write your message here.</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="profile-count">
+    <p>
+      Profile visits :
+      <span id="count_profile">0</span>
+    </p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+<script src="main.js"></script>
+</body>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby85dnnqW2ctVKZdN5pVdsSZvSfdiPFVUAMLqECkWwXzRqnWGBpr4RC9MiKzNCY8KMNvg/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML ="Message send successfully."
+            setTimeout(function(){
+msg.innerHTML=""
+        },5000)
+        form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
